@@ -17,7 +17,7 @@ public class SpringBootIntroApplication {
         /*
         1. Spring creates an object inside container present inside JVM
         2. we can reach that container using Application context to get that object
-        3. Using SpringApplication.run method we can get object context.
+        3. Using SpringApplication.run method, we can get object context.
          */
 		ApplicationContext context=SpringApplication.run(SpringBootIntroApplication.class, args);
 		Mohan obj1=context.getBean(Mohan.class);
